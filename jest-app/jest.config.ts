@@ -14,8 +14,7 @@ const config: Config = {
     '^.+\\.(js|jsx|ts|tsx|mjs)$': 'ts-jest'
   },
   transformIgnorePatterns: [`/node_modules/(?!${esModules})`],
-  clearMocks: true,
-  global: true
+  clearMocks: true
 };
 
 export default config;
